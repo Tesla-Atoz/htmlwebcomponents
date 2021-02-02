@@ -1,0 +1,57 @@
+h1 {
+  color: orange;
+  background-color: slateblue;
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+p {
+  color: black;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  column-count: 3;
+  column-gap: 60px;
+}
+
+ul {
+  /* border-width: 4px;
+  border-style: dotted;
+  border-color: teal; */
+  /* border: 4px dotted crimson; */
+  border-bottom: 4px solid crimson;
+  border-left: 8px dashed crimson;
+  border-top: 4px dotted crimson;
+}
+
+li {
+  list-style-type: square;
+  /* text-shadow: 1px 1px blue; */
+  text-shadow: 2px 2px #33c746;
+}
+
+/* its a inline element  */
+span {
+  /* display : block */
+
+  margin: 20px;
+  border: 2px solid red;
+}
+
+/* its a block element  */
+div {
+  /* display: inline; */
+  border: 2px solid red;
+  margin: 20px;
+  padding: 20px;
+}
+
+a[href='https://google.com']
+{
+  background-color: blueviolet;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}

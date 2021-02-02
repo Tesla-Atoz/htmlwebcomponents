@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>App Download Section</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="appSection">
+      <div class="wrapper">
+        <div class="heading-box">
+          <h1 class="text-slider">Now Available On <br /></h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+            eaque obcaecati aut dolores optio fuga eos aspernatur enim odit
+            libero.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+            eaque obcaecati aut dolores optio fuga eos aspernatur enim odit
+            libero.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+            eaque obcaecati aut dolores optio fuga eos aspernatur enim odit
+            libero.
+          </p>
+          <a href="#" class="app-btn"
+            ><img src="google-play.png" alt="" />Google Paly</a
+          >
+          <a href="#" class="app-btn"
+            ><img src="apple.png" alt="" />Apple Store</a
+          >
+        </div>
+        <div class="threedbox">
+          <img src="3d.png" alt="" />
+          <img src="3d.png" alt="" />
+          <img src="3d.png" alt="" />
+          <img src="3d.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="typer.min.js"></script>
+    <script>
+      $(".text-slider").typer({
+        strings: ["Play Store", "Apple Store"],
+        typeSpeed: 300,
+        backspaceSpeed: 150,
+        backspaceDelay: 1000,
+        repeatDelay: 2000,
+        repeat: true,
+        autoStart: true,
+        startDelay: 500
+      });
+    </script>
+  </body>
+</html>
